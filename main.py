@@ -4,9 +4,9 @@ from dash import Dash, dcc, html, Input, Output
 from data_processing import create_dataframe
 from datetime import datetime
 
-data_file = 'data/transactions_emil.txt'
+#data_file = 'data/transactions_emil.txt'
 #data_file = 'data/transactions_test.txt'
-#data_file = 'data/transactions.txt'
+data_file = 'data/transactions.txt'
 
 df = create_dataframe(data_file)
 df = df[df['Amount'] > -1000000]
