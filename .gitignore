@@ -1,0 +1,8 @@
+__pycache__/
+backup/
+venv/
+
+data/*
+!data/transactions_test.txt
+!data/transactions.txt
+
